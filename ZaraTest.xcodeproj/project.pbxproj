@@ -56,15 +56,95 @@
 		898914122985FF1C0071C357 /* ZaraTest */ = {
 			isa = PBXGroup;
 			children = (
+				89BE14F22986157C00903D4B /* viewModel */,
+				89BE14F12986157100903D4B /* model */,
+				89BE14E92986145200903D4B /* ui */,
 				898914132985FF1C0071C357 /* AppDelegate.swift */,
 				898914152985FF1C0071C357 /* SceneDelegate.swift */,
-				898914172985FF1C0071C357 /* ViewController.swift */,
-				898914192985FF1C0071C357 /* Main.storyboard */,
 				8989141C2985FF290071C357 /* Assets.xcassets */,
 				8989141E2985FF290071C357 /* LaunchScreen.storyboard */,
 				898914212985FF290071C357 /* Info.plist */,
 			);
 			path = ZaraTest;
+			sourceTree = "<group>";
+		};
+		89BE14E92986145200903D4B /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				89BE14EA2986145D00903D4B /* RickyAndMorty */,
+				898914172985FF1C0071C357 /* ViewController.swift */,
+				898914192985FF1C0071C357 /* Main.storyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		89BE14EA2986145D00903D4B /* RickyAndMorty */ = {
+			isa = PBXGroup;
+			children = (
+				89BE14EE2986151400903D4B /* details */,
+				89BE14ED298614F200903D4B /* cards */,
+			);
+			path = RickyAndMorty;
+			sourceTree = "<group>";
+		};
+		89BE14EB298614B800903D4B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		89BE14EC298614BF00903D4B /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		89BE14ED298614F200903D4B /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				89BE14EB298614B800903D4B /* view */,
+				89BE14EC298614BF00903D4B /* viewController */,
+			);
+			path = cards;
+			sourceTree = "<group>";
+		};
+		89BE14EE2986151400903D4B /* details */ = {
+			isa = PBXGroup;
+			children = (
+				89BE14F02986152E00903D4B /* view */,
+				89BE14EF2986152600903D4B /* viewController */,
+			);
+			path = details;
+			sourceTree = "<group>";
+		};
+		89BE14EF2986152600903D4B /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		89BE14F02986152E00903D4B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		89BE14F12986157100903D4B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		89BE14F22986157C00903D4B /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
